@@ -44,6 +44,7 @@ def main(element_name="my-element", repo_name=False, user_name=False):
     print("Renaming polymer component project...")
     print("\tElement name " + old_element_name + " -> " + element_name) 
     print("\tRepository name " + old_repo_name + " -> " + repo_name)
+    print("\tUser (Github) name " + old_user_name + " -> " + user_name)
     
     print("")
     for path in mywalk(repo_dir):
